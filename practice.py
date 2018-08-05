@@ -3,8 +3,7 @@
 import requests
 import os
 
-# key = 'trnsl.1.1.20161025T233221Z.47834a66fd7895d0.a95fd4bfde5c1794fa433453956bd261eae80152'
-key = 'trnsl.1.1.20180802T194247Z.521749684a2bfa84.f1babf41d9e5828c83324c0c5e7c257623ed46d3'
+key = 'trnsl.1.1.20161025T233221Z.47834a66fd7895d0.a95fd4bfde5c1794fa433453956bd261eae80152'
 detect_url = 'https://translate.yandex.net/api/v1.5/tr.json/detect'
 translate_url = 'https://translate.yandex.net/api/v1.5/tr.json/translate'
 file_extension = 'txt'
